@@ -1,6 +1,7 @@
 package CodigoJuegos;
 
 import CodigoJuegos.RompeLadrillos.raqueta;
+import CodigoJuegos.Snake.Snake;
 import CodigoJuegos.Tractor.Tractor.Principal;
 
 import javax.swing.*;
@@ -17,10 +18,15 @@ public class Main {
                 opcion = Integer.parseInt(JOptionPane.showInputDialog(" Introduce la opción que desee "));
                 switch (opcion) {
                     case 1:
+
+
                         JOptionPane.showMessageDialog(null, " Has seleccionado la opción 1 ");
+                        raqueta.main(args);
+                        break;
 
                     case 2:
                         JOptionPane.showMessageDialog(null, " Has seleccionado la opción 2 ");
+                        Snake.main(args);
                         break;
                     case 3:
                         JOptionPane.showMessageDialog(null, " Has seleccionado la opción 3 ");

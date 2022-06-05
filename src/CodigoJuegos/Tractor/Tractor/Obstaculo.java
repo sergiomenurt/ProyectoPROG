@@ -50,7 +50,7 @@ public class Obstaculo {
     }
 
     public void paint(Graphics2D g){
-        ImageIcon animal = new ImageIcon(getClass().getResource("/multimedia/vaquita.png"));
+        ImageIcon animal = new ImageIcon(getClass().getResource("/CodigoJuegos/Tractor/multimedia/vaquita.png"));
         g.drawImage(animal.getImage(),x_inicial,y_inicial, anchoObstaculo, altoObstaculo, null);
 
     }

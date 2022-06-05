@@ -8,7 +8,7 @@ public class balon extends Sprite implements comun {
     private int xdir;
     private int ydir;
 
-    protected String ball = "balon.png";
+    protected String ball = "/CodigoJuegos/RompeLadrillos/multimedia/balon.png";
 
     public balon() {
 

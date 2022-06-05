@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 
 public class ladrillo extends Sprite {
 
-    String brickie = "ladrillo.png";
+    String brickie = "/CodigoJuegos/RompeLadrillos/multimedia/ladrillo.png";
 
     boolean destroyed;
 

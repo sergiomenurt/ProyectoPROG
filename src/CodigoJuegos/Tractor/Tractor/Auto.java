@@ -66,7 +66,7 @@ public class Auto {
     }
 
     public void paint(Graphics2D g) {
-        ImageIcon auto = new ImageIcon(getClass().getResource("/multimedia/tractor.png"));
+        ImageIcon auto = new ImageIcon(getClass().getResource("/CodigoJuegos/Tractor/multimedia/tractor.png"));
         g.drawImage(auto.getImage(), x_inicial, y_inicial, anchoPersonaje, altoPersonaje, null);
 
 
