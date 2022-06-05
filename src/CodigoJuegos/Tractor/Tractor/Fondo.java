@@ -30,7 +30,7 @@ public class Fondo {
         }
     }
     public void paint(Graphics2D g){
-        ImageIcon imagenFondo = new ImageIcon(getClass().getResource("/multimedia/fondo.jpg"));
+        ImageIcon imagenFondo = new ImageIcon(getClass().getResource("/CodigoJuegos/Tractor/multimedia/fondo.jpg"));
         g.drawImage(imagenFondo.getImage(),x1,y1,anchoFondo,altoFondo,null);
         g.drawImage(imagenFondo.getImage(), x2,y2,anchoFondo,altoFondo,null);
 

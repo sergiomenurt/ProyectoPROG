@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 
 public class paleta extends Sprite implements comun {
 
-    String paddle = "paleta.png";
+    String paddle = "/CodigoJuegos/RompeLadrillos/multimedia/paleta.png";
 
     int dx;
 
